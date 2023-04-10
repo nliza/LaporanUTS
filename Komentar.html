@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Komentar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="icon" a href="assets/image/xnew.jpg">
+
+  <style type="text/css">
+    BODY {
+      position: relative;
+      background-image: linear-gradient(to right, #cfd8db, #8eb6cc, #5299bf, #8eb6cc, #cfd8db);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-5 mx-auto text-center-white">
+        <div class="text-center text-white">
+          <h4>Berikan ulasan Anda!</h4>
+        </div>
+        <form id="form" onsubmit="return validateForm()">
+          <div class="form-group text-white">
+            <label for="nama">Nama:</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Masukkan Nama Anda" value="" required>
+          </div>
+          <div class="form-group text-white">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+          <div class="form-group text-white">
+            <label for="ulasan">Ulasan:</label>
+            <textarea class="form-control" id="ulasan" rows="5" placeholder="Tulis ulasan anda" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary"> Kirim</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+  <!-- main content - end -->
+  <!--
+        Bootstrap core JavaScript
+        Placed at the end of the document so the pages load faster
+        -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+</body>
+
+</html>
